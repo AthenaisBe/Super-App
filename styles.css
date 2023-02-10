@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.container {
+    background-color: #dd5555;
+    display: flex;
+    justify-content: flex-start;
+    background-size: contain;
+    height: 52px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    align-items: center;
+    height: 52px;
+    width: 318px;
+    font-size: 14px;
+}
+
+#logo {
+    height: 28px;
+    width: 120px;
+    margin-top: 12px;
+    margin-left: 131px;
+}
+
+li {
+    margin: auto;
+    padding: 15px 12px 18px 13px;
+}
+
+li:hover {
+    background-color: black;
+    opacity: 0.25;
+    background-clip: border-box;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#superapp {
+    height: 658px;
+    background-image: url('images/about.jpg@2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 219.5px;
+    margin-bottom: 10.5px;
+    font-weight: 700;
+}
+
+#superapp p {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#reseaux-sociaux {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #FFFFFF;
+    width: 400px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+#reseaux-sociaux a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2E2E2E;
+    font-size: 18px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    width: 112px;
+    height: 46px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#reseaux-sociaux img {
+    width: 16px;
+    height: 14px;
+    margin-right: 11px;
+}
+
+#trucs-super h2 {
+    color: #2E2E2E;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 49px;
+    font-weight: 600;
+}
+
+.containerbis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#trucs-super .containerbis figure {
+    text-align: center;
+    height: 266px;
+    width: 358px;
+    margin-top: 15px;
+}
+
+#trucs-super .containerbis figure div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #dd5555;
+    margin: auto;
+}
+
+#trucs-super .containerbis figure h4 {
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+#trucs-super .containerbis figure p {
+    font-size: 16px;
+}
+
+#equipe .super-titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    background-image: url("images/team.jpg@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    font-weight: 700;
+}
+
+#equipe .super-titre h2 {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+#equipe .super-equipe {
+    display: flex;
+    justify-content: space-around;
+    margin: 64px 142px 0 142px;
+}
+
+#equipe .super-equipe figure {
+    height: 365px;
+    text-align: center;
+}
+
+#equipe .super-equipe figure .ava {
+    width: 239px;
+    height: 239px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+#equipe .super-equipe figure a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+    font-size: 18px;
+    background: #DD5555 0% 0% no-repeat padding-box;
+    width: 132px;
+    height: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 24px;
+}
+
+#equipe .super-equipe figure .icone {
+    width: 24px;
+    height: 19px;
+}
+
+#equipe .super-equipe figure h4 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+
+
+
+footer {
+    width: 1400px;
+    height: 476px;
+    background-color: #DD5555;
+    margin-top: 71px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer .contact-form {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 748px;
+    margin: auto;
+}
+
+footer h2 {
+    font-size: 36px;
+    padding-top: 51px;
+    font-weight: 600;
+}
+
+footer .contact-form input {
+    border: 1px solid #ffffff;
+    height: 32px;
+    width: 358px;
+}
+
+footer .contact-form .name {
+    margin-right: 32px;
+}
+
+
+footer .contact-form div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+footer .contact-form textarea {
+    width: 748px;
+    height: 112px;
+    border: 1px solid #ffffff;
+}
+
+footer .contact-form label {
+    margin-top: 40px;
+    margin-bottom: 7px;
+    font-size: 16px;
+}
+
+footer .contact-form button {
+    display: flex;
+    height: 46px;
+    width: 123px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-top: 16px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+footer .contact-form button img {
+    width: 24px;
+    height: 24px;
+}
